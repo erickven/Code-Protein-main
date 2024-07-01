@@ -85,7 +85,7 @@ let peso1 = 1
 		</tr>
 	</table>
 	<div class="flex justify-center mb-5">
-	<ul>
+	<ul class="ml-4">
 		<li>Leve: Pessoa Sedentária, não pratica atividades fisícas.</li>
 		<li>Moderado: Procura se exercitar de vez em quando fazendo caminhadas ou maratonas.</li>
 		<li>Ativo: Vai a Academia de 2-4 vezes na semana ou pratica esportes com frequência.</li>
