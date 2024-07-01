@@ -15,6 +15,9 @@
 	function drawerOpen(){
 	drawerStore.open({});
 }
+let peso1 = 1
+	let alt = 1
+	let peso2 = 1
 </script>
 <body class="bg-surface-900">
 	
@@ -38,13 +41,13 @@
 		</tr>
 		<tr>
 			<td>
-			<input class="w-24 sm:w-40 md:w-56 lg:w-64 bg-surface-800 rounded-lg border-2 border-surface-400 m-2" type="number" name="pesoInput" id="peso" placeholder="Seu Peso...">
+			<input class="w-24 sm:w-40 md:w-56 lg:w-64 bg-surface-800 rounded-lg border-2 border-surface-400 m-2" type="number" bind:value = {peso1} name="pesoInput" id="peso" placeholder="Seu Peso...">
 			</td>
 			<td>
-			<input class="w-24 sm:w-40 md:w-56 lg:w-64 bg-surface-800 rounded-lg border-2 border-surface-400 m-2" type="number" name="alturaInput" id="alt" placeholder="Sua Altura...">
+			<input class="w-24 sm:w-40 md:w-56 lg:w-64 bg-surface-800 rounded-lg border-2 border-surface-400 m-2" type="number" bind:value = {alt} name="alturaInput" id="alt" placeholder="Sua Altura...">
 			</td>
 			<td>
-				<p id="res" class="font-bold pr-2">Seu IMC está OK.</p>
+				<p id="res" class="font-bold pr-2">{alt * alt / peso1}</p>
 			</td>
 		</tr>
 	</table>
@@ -52,24 +55,24 @@
 	<div class="w-3/4 mx-auto mt-16 mb-10"><h3 class="text-center font-bold">Agora que você já sabe se está acima do peso ou não vamos para a parte de calcular sua ingestão de proteinas diária, lembrando que se você quer emagrecer/perder peso essa parte não vai te interessar muito pois para perca de peso você pode montar uma dieta mais balanceada tirando boa parte da gordura da sua alimentação e um pouco de carboidratos(principalmente se você é de comer muita massa), porque a proteina não te engorda, pelo contrário, ela ajuda seu corpo a construir mais músculos e te deixar mais forte, é super saúdavel!!</h3></div>
 	<div class="w-3/4 mx-auto mb-8"><h2 class="text-center font-bold">Essa calculadora irá calcular a quantidade de proteinas em gramas que você precisa consumir todos os dias e dirá essa quantidade com base no nivel de esforço físico que você faz no dia a dia, os níveis são divididos em Leve, Moderado, Ativo e Extremo</h2></div>
 	<table class="mx-auto border-2 border-surface-400">
-		<tr class="bg-primary-500 text-surface-900 gap-5 md:gap-15">
-			<th>Peso</th><th>Leve</th><th>Moderado</th><th>Ativo</th><th>Extremo</th>
+		<tr class="bg-primary-500 text-surface-900">
+			<th>Peso</th><th class="px-2">Leve</th><th class="px-2">Moderado</th><th class="px-2">Ativo</th><th class="px-2">Extremo</th>
 		</tr>
 		<tr>
 			<td>
-			<input class="w-24 sm:w-40 md:w-56 lg:w-64 bg-surface-800 rounded-lg border-2 border-surface-400 m-2" type="number" name="pesoInput" id="peso" placeholder="Seu Peso...">
+			<input class="w-24 sm:w-40 md:w-56 lg:w-64 bg-surface-800 rounded-lg border-2 border-surface-400 m-2" type="number" bind:value = {peso2} name="pesoInput" id="peso" placeholder="Seu Peso...">
 			</td>
 			<td>
-				<p id="res" class="text-sm font-bold pr-2">Esperando...</p>
+				<p id="res" class="text-center text-sm font-bold pr-2">{peso2 * 1.8}g</p>
 			</td>
 			<td>
-				<p id="res" class="text-sm font-bold pr-2">Esperando...</p>
+				<p id="res" class="text-center text-sm font-bold pr-2">{peso2 * 1.9}g</p>
 			</td>
 			<td>
-				<p id="res" class="text-sm font-bold pr-2">Esperando...</p>
+				<p id="res" class="text-center text-sm font-bold pr-2">{peso2 * 2}g</p>
 			</td>
 			<td>
-				<p id="res" class="text-sm font-bold pr-2">Esperando...</p>
+				<p id="res" class="text-center text-sm font-bold pr-2">{peso2 * 2.2}g</p>
 			</td>
 		</tr>
 	</table>
