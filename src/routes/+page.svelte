@@ -25,7 +25,7 @@ let peso1 = 1
 	<svelte:fragment slot="header"><AppBar>
 	<svelte:fragment slot="lead"><img src="{logo}" alt="protein-logo" class="w-12"></svelte:fragment>
 	<h1 class="h3 font-bold">Code-Protein</h1>
-	<svelte:fragment slot="trail"><button on:click={drawerOpen} class="hover:bg-tertiary-200 rounded-lg"><img src="{indice}" class="" alt="indice"></button></svelte:fragment>
+	<svelte:fragment slot="trail"><button on:click={drawerOpen} class="hover:bg-surface-500 rounded-xl"><img src="{indice}" class="" alt="indice"></button></svelte:fragment>
 </AppBar>
 </svelte:fragment>
 <svelte:fragment slot="sidebarRight"><Drawer>
@@ -61,7 +61,7 @@ let peso1 = 1
 		</ul>
 		</div>
 	<div class="w-3/4 mx-auto mt-16 mb-10"><h3 class="text-center font-bold">Agora que você já sabe se está acima do peso ou não vamos para a parte de calcular sua ingestão de proteinas diária, lembrando que se você quer emagrecer/perder peso essa parte não vai te interessar muito pois para perca de peso você pode montar uma dieta mais balanceada tirando boa parte da gordura da sua alimentação e um pouco de carboidratos(principalmente se você é de comer muita massa), porque a proteina não te engorda, pelo contrário, ela ajuda seu corpo a construir mais músculos e te deixar mais forte, é super saúdavel!!</h3></div>
-	<div class="w-3/4 mx-auto mb-8"><h2 class="text-center font-bold">Essa calculadora irá calcular a quantidade de proteinas em gramas que você precisa consumir todos os dias e dirá essa quantidade com base no nivel de esforço físico que você faz no dia a dia, os níveis são divididos em Leve, Moderado, Ativo e Extremo</h2></div>
+	<div class="w-3/4 mx-auto mb-8"><h2 class="text-center font-bold">Enfim, Essa calculadora irá calcular a quantidade de proteinas em gramas que você precisa consumir todos os dias e dirá essa quantidade com base no nivel de esforço físico que você faz no dia a dia, os níveis são divididos em Leve, Moderado, Ativo e Extremo</h2></div>
 	<table class="mx-auto border-2 border-surface-400 mb-16">
 		<tr class="bg-primary-500 text-surface-900">
 			<th>Peso</th><th class="px-2">Leve</th><th class="px-2">Moderado</th><th class="px-2">Ativo</th><th class="px-2">Extremo</th>
