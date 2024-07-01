@@ -63,16 +63,16 @@ let peso1 = 1
 			<input class="w-24 sm:w-40 md:w-56 lg:w-64 bg-surface-800 rounded-lg border-2 border-surface-400 m-2" type="number" bind:value = {peso2} name="pesoInput" id="peso" placeholder="Seu Peso...">
 			</td>
 			<td>
-				<p id="res" class="text-center text-sm font-bold pr-2">{peso2 * 1.8}g</p>
+				<p id="res" class="text-center text-sm font-bold pr-2">{peso2 * 0.8}g</p>
 			</td>
 			<td>
-				<p id="res" class="text-center text-sm font-bold pr-2">{peso2 * 1.9}g</p>
+				<p id="res" class="text-center text-sm font-bold pr-2">{peso2 * 1.2}g</p>
+			</td>
+			<td>
+				<p id="res" class="text-center text-sm font-bold pr-2">{peso2 * 1.6}g</p>
 			</td>
 			<td>
 				<p id="res" class="text-center text-sm font-bold pr-2">{peso2 * 2}g</p>
-			</td>
-			<td>
-				<p id="res" class="text-center text-sm font-bold pr-2">{peso2 * 2.2}g</p>
 			</td>
 		</tr>
 	</table>
