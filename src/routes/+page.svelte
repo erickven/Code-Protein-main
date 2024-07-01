@@ -51,7 +51,7 @@ let peso1 = 1
 			</td>
 		</tr>
 	</table>
-	<div class="ml-96 mt-5 mb-5 font-bold">
+	<div class="flex justify-center mt-5 mb-5 font-bold">
 		<ul>
 			<li>Menor que 18.5: Baixo Peso</li>
 			<li>Entre 18.5 e 24.9: Peso Normal</li>
