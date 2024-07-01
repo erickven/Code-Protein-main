@@ -47,10 +47,19 @@ let peso1 = 1
 			<input class="text-center w-24 sm:w-40 md:w-56 lg:w-64 bg-surface-800 rounded-lg border-2 border-surface-400 m-2" type="number" bind:value = {alt} name="alturaInput" id="alt" placeholder="Sua Altura...">
 			</td>
 			<td>
-				<p id="res" class="font-bold pr-2">{alt * alt / peso1}</p>
+				<p id="res" class="font-bold pr-2">{peso1 / (alt * alt)}</p>
 			</td>
 		</tr>
 	</table>
+	<div class="ml-96 mt-5 mb-5 font-bold">
+		<ul>
+			<li>Menor que 18.5: Baixo Peso</li>
+			<li>Entre 18.5 e 24.9: Peso Normal</li>
+			<li>Entre 25-29.9: Excesso de Peso</li>
+			<li>Maior que 30: Obesidade</li>
+			<li>Maior que 35: Obesidade Extrema</li>
+		</ul>
+		</div>
 	<div class="w-3/4 mx-auto mt-16 mb-10"><h3 class="text-center font-bold">Agora que você já sabe se está acima do peso ou não vamos para a parte de calcular sua ingestão de proteinas diária, lembrando que se você quer emagrecer/perder peso essa parte não vai te interessar muito pois para perca de peso você pode montar uma dieta mais balanceada tirando boa parte da gordura da sua alimentação e um pouco de carboidratos(principalmente se você é de comer muita massa), porque a proteina não te engorda, pelo contrário, ela ajuda seu corpo a construir mais músculos e te deixar mais forte, é super saúdavel!!</h3></div>
 	<div class="w-3/4 mx-auto mb-8"><h2 class="text-center font-bold">Essa calculadora irá calcular a quantidade de proteinas em gramas que você precisa consumir todos os dias e dirá essa quantidade com base no nivel de esforço físico que você faz no dia a dia, os níveis são divididos em Leve, Moderado, Ativo e Extremo</h2></div>
 	<table class="mx-auto border-2 border-surface-400 mb-16">
