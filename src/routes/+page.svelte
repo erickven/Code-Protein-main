@@ -15,7 +15,7 @@
 	function drawerOpen(){
 	drawerStore.open({});
 }
-let peso1 = 1
+	let peso1 = 1
 	let alt = 1
 	let peso2 = 1
 </script>
@@ -29,10 +29,10 @@ let peso1 = 1
 </AppBar>
 </svelte:fragment>
 <svelte:fragment slot="sidebarRight"><Drawer>
-	<p class="font-bold text-center">Em Breve....</p>
+	<p class="text-center font-bold">Em Breve..</p>
 </Drawer></svelte:fragment>
 	<slot />
-	<h1 class="h3 font-bold text-center mt-16">Olá, Bem-vindo ao Code Protein, <br> nosso site web completamente especializado em nutrição e dieta balanceada.</h1>
+	<h1 class="h3 font-bold text-center mt-16">Olá, Bem-vindo ao Code Protein, <br> nosso web site completamente especializado em nutrição e dieta balanceada.</h1>
 	<div class="mx-auto w-96"><p class="text-center mt-3">nesse site você poderá calcular seu IMC e saber se está abaixo ou acima do peso ideal de acordo com a ciência e também poderá conferir quantas gramas de proteina você precisa ingerir por dia de acordo com seu peso corporal.</p></div>
 	<h3 class="my-8 text-center">Vamos então começar por um breve cálculo para saber se está tudo ok com o seu IMC (Indíce de Massa Corporal).</h3>
 	<table class="mx-auto border-2 border-surface-400">
@@ -60,8 +60,8 @@ let peso1 = 1
 			<li>Maior que 35: Obesidade Extrema</li>
 		</ul>
 		</div>
-	<div class="w-3/4 mx-auto mt-16 mb-10"><h3 class="text-center font-bold">Agora que você já sabe se está acima do peso ou não vamos para a parte de calcular sua ingestão de proteinas diária, lembrando que se você quer emagrecer/perder peso essa parte não vai te interessar muito pois para perca de peso você pode montar uma dieta mais balanceada tirando boa parte da gordura da sua alimentação e um pouco de carboidratos(principalmente se você é de comer muita massa), porque a proteina não te engorda, pelo contrário, ela ajuda seu corpo a construir mais músculos e te deixar mais forte, é super saúdavel!!</h3></div>
-	<div class="w-3/4 mx-auto mb-8"><h2 class="text-center font-bold">Enfim, Essa calculadora irá calcular a quantidade de proteinas em gramas que você precisa consumir todos os dias e dirá essa quantidade com base no nivel de esforço físico que você faz no dia a dia, os níveis são divididos em Leve, Moderado, Ativo e Extremo</h2></div>
+	<div class="w-3/4 mx-auto mt-24 mb-10"><h3 class="text-center font-bold">Agora que você já sabe se está acima do peso ou não vamos para a parte de calcular sua ingestão de proteinas diária, lembrando que se você quer emagrecer/perder peso essa parte não vai te interessar muito pois para perca de peso você pode montar uma dieta mais balanceada tirando boa parte da gordura da sua alimentação e um pouco de carboidratos(principalmente se você é de comer muita massa), porque a proteína não te engorda, pelo contrário, ela ajuda seu corpo a construir mais músculos e te deixar mais forte, é super saúdavel!!</h3></div>
+	<div class="w-3/4 mx-auto mb-8"><h2 class="text-center font-bold">Enfim, Essa calculadora irá calcular a quantidade de proteinas em gramas que você precisa consumir todos os dias e dirá essa quantidade com base no nivel de esforço físico que você faz no dia a dia, os níveis são divididos em Leve, Moderado, Ativo e Extremo.</h2></div>
 	<table class="mx-auto border-2 border-surface-400 mb-16">
 		<tr class="bg-primary-500 text-surface-900">
 			<th>Peso</th><th class="px-2">Leve</th><th class="px-2">Moderado</th><th class="px-2">Ativo</th><th class="px-2">Extremo</th>
@@ -92,6 +92,8 @@ let peso1 = 1
 		<li>Extremo: Vai a Academia de 5-6 vezes na semana, busca progressão de carga ou faz treino extremo e constante no esporte que pratica.</li>
 	</ul>
 	</div>
+	<div class="text-center font-bold mb-7 mt-16 "><p>Esta calculadora foi projetada para ajudar a estimar suas necessidades diárias de proteína para o planejamento de sua dieta e tem apenas fins informativos. Esta ferramenta não substitui o atendimento de um profissional da saúde qualificado e é destinada a adultos saudáveis e não é apropriada para crianças e mulheres grávidas ou amamentando ou pessoas com doenças ou condições médicas específicas que podem exigir diferentes quantidades, fontes ou tipos de proteína alimentar.
+	</p></div>
 	<svelte:fragment slot="pageFooter">
 	<div class="bg-primary-500 text-surface-900 text-center font-bold py-5">© Copyright - Desenvolvido por Erick Venãncio</div>
 	</svelte:fragment>
