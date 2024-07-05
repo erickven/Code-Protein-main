@@ -9,6 +9,9 @@
 	import indice from '$lib/icons8-lista-48.png';
 	import { LightSwitch } from '@skeletonlabs/skeleton';
 	import teste from '$lib/image.png'
+	import carne from '$lib/carne.jfif'
+	import peito from '$lib/peito.jfif'
+	import atum from '$lib/atum.png'
 	// let peso = document.querySelector('#peso');
 	// let alt = document.querySelector('#alt')
 	// function calcularImc(peso, alt){
@@ -167,19 +170,19 @@
 		<p class="h5 text-center">Aqui estão alguns alimentos riquissimos em proteínas:</p>
 		<div id="cards" class="flex justify-center gap-8">
 			<div class="card mt-6 inline-block w-24 sm:w-32 text-sm md:w-72 p-4">
-				<img src={teste} alt="teste1" />
-				<h5 class="text-center font-bold">Frango Assado</h5>
+				<img src={peito} alt="teste1"class="w-72 h-56" />
+				<h5 class="text-center font-bold">Peito de Frango</h5>
 				<p class="text-center mt-2">É um grande alimento proteíco, em apenas 100g de frango temos 30g de proteínas!!!</p>
 			</div>
 			<div class="card mt-6 inline-block w-24 sm:w-32 text-sm md:w-72 p-4">
-				<img src={teste} alt="teste1" />
+				<img src={carne} alt="carne" class="w-72 h-56" />
 				<h5 class="text-center font-bold">Carne Bovina</h5>
-				<p class="text-center mt-2">Em especial o Bife e a carne de sol tem muitas proteínas!!</p>
+				<p class="text-center mt-2">Em especial o bife e a carne de sol tem aproximadamente 27g de poteínas em 100g!!.</p>
 			</div>
 			<div class="card mt-6 inline-block w-24 sm:w-32 text-sm md:w-72 p-4">
-				<img src={teste} alt="teste1" />
-				<h5 class="text-center font-bold">Amendoim Japonês</h5>
-				<p class="text-center mt-2">Muito proteíco e calórico também, uma das melhores recomendações para quem quer ganho de massa.</p>
+				<img src={atum} alt="teste1" class="w-72 h-56" />
+				<h5 class="text-center font-bold">Atum em Conserva</h5>
+				<p class="text-center mt-2">O atum em conserva contém 26,2g de proteína apenas em 100g de alimento, além de ter muito ômega-3!!</p>
 			</div>
 		</div>
 		<div class="mb-7 mt-16 text-center font-bold">
