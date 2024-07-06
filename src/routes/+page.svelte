@@ -177,7 +177,7 @@
 			<div class="card mt-6 inline-block w-24 sm:w-32 text-sm md:w-72 p-4">
 				<img src={carne} alt="carne" class="w-72 h-56" />
 				<h5 class="text-center font-bold">Carne Bovina</h5>
-				<p class="text-center mt-2">Em especial o bife e a carne de sol tem aproximadamente 27g de poteínas em 100g!!.</p>
+				<p class="text-center mt-2">Em especial o bife e a carne de sol tem aproximadamente 27g de poteínas em 100g!!</p>
 			</div>
 			<div class="card mt-6 inline-block w-24 sm:w-32 text-sm md:w-72 p-4">
 				<img src={atum} alt="teste1" class="w-72 h-56" />
