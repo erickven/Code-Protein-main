@@ -91,7 +91,7 @@
 					/>
 				</td>
 				<td>
-					<p id="res" class="pr-2 font-bold">{peso1 / (alt * alt)}</p>
+					<p id="res" class="pr-2 font-bold">{(peso1 / (alt * alt)).toFixed(2)}</p>
 				</td>
 			</tr>
 		</table>
@@ -140,16 +140,16 @@
 					/>
 				</td>
 				<td>
-					<p id="res" class="pr-2 text-center text-sm font-bold">{peso2 * 0.8}g</p>
+					<p id="res" class="pr-2 text-center text-sm font-bold">{(peso2 * 0.8)).toFixed(2)}g</p>
 				</td>
 				<td>
-					<p id="res" class="pr-2 text-center text-sm font-bold">{peso2 * 1.2}g</p>
+					<p id="res" class="pr-2 text-center text-sm font-bold">{(peso2 * 1.2)).toFixed(2)}g</p>
 				</td>
 				<td>
-					<p id="res" class="pr-2 text-center text-sm font-bold">{peso2 * 1.6}g</p>
+					<p id="res" class="pr-2 text-center text-sm font-bold">{(peso2 * 1.6)).toFixed(2)}g</p>
 				</td>
 				<td>
-					<p id="res" class="pr-2 text-center text-sm font-bold">{peso2 * 2}g</p>
+					<p id="res" class="pr-2 text-center text-sm font-bold">{(peso2 * 2)).toFixed(2)}g</p>
 				</td>
 			</tr>
 		</table>
